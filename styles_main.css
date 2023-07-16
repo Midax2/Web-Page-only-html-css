@@ -1,0 +1,57 @@
+body {
+	background-image: url('Images/Sakura.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+}
+.text_gl {
+	text-align: center;
+	margin: 0;
+	font-size: 5vw;
+	font-family: cursive;
+	color: white;
+	-webkit-text-stroke: 0.15vw black;
+}
+.text_bok {
+	text-align: center;
+	margin: 0;
+	font-size: 2.7vw;
+	font-family: cursive;
+	color: white;
+	-webkit-text-stroke: 0.1vw black;
+}
+header {
+	position: relative;
+	height: 7vw;
+	width: max-content;
+	margin: auto;
+}
+#linki {
+	padding-top: 1vw;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+figure {
+	margin: 0px;
+	text-align: center;
+}
+article {
+	position: absolute;
+	top: 40vw;
+	left: 25%;
+	height: 23vw;
+	width: 50%;
+	border-radius: 5vw;
+	background-color: pink;
+	opacity: .9;
+	margin-left: auto;
+	margin-right: auto;
+}
+article p {
+	padding: 1vw;
+}
+a {
+	text-decoration: none;
+}

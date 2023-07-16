@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <link rel='stylesheet' href='../styles_info.css'>
+    <link rel='stylesheet' href='../styles_all.css'>
+    <link rel='stylesheet' href='styles_quiz.css'>
+    <title>Quiz o Japonii</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="link">
+            <div class="logo button">
+                <img class="button" src="../Images/Logo.png" alt="Logo">
+            </div>
+
+            <div class="logo nazwa">
+                <p class="text_nazwa">Mity Japonii w pigułce</p>
+            </div>
+        </a>
+        <div id="home">
+            <p class="menu_drop">Menu</p>
+            <div class="drop">
+                <a href="../index.html">Strona główna</a>
+                <div class="info">
+                    <a href="../Gods/Gods.html">Bogowie</a>
+                    <a href="../Yokai/Yokai.html">Yokai</a>
+                    <a href="../Tales/Tales.html">Powieści</a>
+                </div>
+                <a href="../Gallery/Gallery.html">Galeria</a>
+                <a href="../Quiz/Quiz.html">Quiz</a>
+                <a href="../Links/Links.html">Przydatne linki</a>
+            </div>
+        </div>
+        <div class="nav">
+            <a class="niema" href="../Gods/Gods.html">Bogowie</a>
+        </div>
+        <div class="nav">
+            <a class="niema" href="../Yokai/Yokai.html">Yokai</a>
+        </div>
+        <div class="nav">
+            <a class="niema" href="../Tales/Tales.html">Powieści</a>
+        </div>
+    </nav>
+    <article>
+        <header>
+            Quiz
+        </header>
+        <div>
+            <h2 style="text-align: center;">
+                Odpowiedź na pytania i dostań się do rankingu!
+            </h2>
+        </div>
+        <div>
+            <form method="post" action="#">
+                <ol>
+                    <li>
+                        Bogini słońca w mitologii japońskiej jest...
+                        <select>
+                            <option value="0">Wybierz odpowiedź</option>
+                            <option value="1">Tsukiyomi</option>
+                            <option value="2">Tanuki</option>
+                            <option value="3">Amaterasu</option>
+                            <option value="4">Kitsune</option>
+                        </select>
+                    </li>
+                    <li>
+                        Jakiego koloru mogą być Oni? <br> (Jest więcej niż jedna prawidłowa odpowiedż)
+                        <br>
+                        <input type="checkbox" name="Red" value="Red">Czerwonego
+                        <input type="checkbox" name="Green" value="Green">Zielonego
+                        <input type="checkbox" name="Black" value="Black">Czarnego
+                        <input type="checkbox" name="Blue" value="Blue">Niebieskiego
+                    </li>
+                    <li>
+                        Jak nazywają się przedmioty, w których przebywa bóstwo?
+                        <input type="text" name="Shintai" value="">
+                    </li>
+                    <li>
+                        Ile bogów szczęścia jest w mitologii japońskiej?
+                        <select>
+                            <option value="0">Wybierz odpowiedź</option>
+                            <option value="1">12</option>
+                            <option value="2">4</option>
+                            <option value="3">6</option>
+                            <option value="4">1</option>
+                            <option value="4">7</option>
+                        </select>
+                    </li>
+                    <li>
+                        Kitsune jest demonem ... <br>
+                        <input type="radio" name="Kitsune" id="Lis" value="Lis">
+                        <label for="Lis">Lisy</label>
+                        <br>
+                        <input type="radio" name="Kitsune" id="Wilk" value="Wilk">
+                        <label for="Wilk">Wilka</label>
+                    </li>
+                    <li>
+                        Za pierwszą, nowoczesną powieść uważa się ...
+                        <input type="text" name="Genji" value="">
+                    </li>
+                    <li>
+                        Jakim zwierzęciem jest tanuki?
+                        <br>
+                        <input type="checkbox" name="Cat" value="Cat">Kot
+                        <input type="checkbox" name="Raccoon" value="Raccoon">Jenot
+                        <input type="checkbox" name="Bear" value="Bear">Niedźwiedź
+                        <input type="checkbox" name="Dog" value="Dog">Pies
+                    </li>
+                    <li>
+                        Czy smok występuje w mitologii japońskiej?
+                        <br>
+                        <input type="radio" name="Smok" id="Tak" value="Tak">
+                        <label for="Tak">Tak</label>
+                        <br>
+                        <input type="radio" name="Smok" id="Nie" value="Nie">
+                        <label for="Nie">Nie</label>
+                    </li>
+                </ol>
+                <textarea rows="3" cols="50">
+                    Uwagi dotyczące quiz'u można zostawić tu
+                </textarea>
+                <br>
+                <input class="sub_res" type="submit" value="submit">
+                <input class="sub_res" type="reset" value="reset">
+            </form>
+        </div>
+        <div>
+            <h2>
+                Schemat punktowania
+            </h2>
+            <div style="padding: 1vw">
+                <table>
+                    <tr>
+                        <th class="nr">Nr. pytania</th>
+                        <th>Punkty</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1pkt</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2pkt (1 za każdy prawidłowy)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Do zdobycia: 15</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h2>
+                Odpowiedzi
+            </h2>
+            <div id="odp_h">
+                Najedź myszką, by zobaczyć odpowiedzi
+                <div id="odpowiedzi">
+                    <ol>
+                        <li>
+                            Amaterasu
+                        </li>
+                        <li>
+                            Czerwonego i niebieskiego
+                        </li>
+                        <li>
+                            Shintai
+                        </li>
+                        <li>
+                            Jest 7 bogów szczęścia
+                        </li>
+                        <li>
+                            Lisy
+                        </li>
+                        <li>
+                            Genji monogatari
+                        </li>
+                        <li>
+                            Jenot
+                        </li>
+                        <li>
+                            Tak
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </article>
+    <a href="#top">
+        <svg class="border">
+            <circle cx="4vw" cy="4vw" r="2.5vw" fill="pink" />
+            <text x="2.8vw" y="3.6vw" class="top">Go to</text>
+            <text x="2.4vw" y="4.8vw" class="top">the top</text>
+        </svg>
+    </a>
+    <footer>
+        <p>Autor: Dmytro Dzhusov. Temat: Moje hobby</p>
+        <p>Rok: 2022. WETI Informatyka</p>
+    </footer>
+</body>
+</html>

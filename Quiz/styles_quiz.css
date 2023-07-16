@@ -1,0 +1,41 @@
+form {
+    font-family: cursive;
+    font-size: 20px;
+    padding: 1vw;
+}
+select, input, textarea, table {
+    border-radius: 0.5vw;
+    background-color: moccasin;
+    font-family: cursive;
+    font-size: 15px;
+}
+select:hover, option:hover {
+    cursor: pointer;
+}
+#odpowiedzi {
+    text-align: left;
+    background-color: black;
+    border-radius: 3vw;
+}
+#odpowiedzi:hover {
+    background-color: transparent;
+}
+#odp_h {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.sub_res {
+    transition: font-size 0.5s;
+}
+.sub_res:hover {
+    font-size: 20px;
+}
+table {
+    width: 300px;
+    border: solid black;
+    text-align: center;
+}
+.nr {
+    width: 100px;
+}

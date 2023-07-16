@@ -1,0 +1,143 @@
+nav {
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    border-radius: 50px;
+    background-color: pink;
+    opacity: .9;
+    height: 4vw;
+}
+footer {
+    position: relative;
+    left: 0vw;
+    right: 0vw;
+    bottom: 0vw;
+    border-radius: 50px;
+    background-color: pink;
+    opacity: .9;
+    font-size: 1vw;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+.text_nazwa {
+    position: absolute;
+    margin: 0;
+    font-size: 2.7vw;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.1vw black;
+}
+.niema {
+    color: white;
+    font-size: 2.4vw;
+    padding: 0;
+    font-family: cursive;
+    -webkit-text-stroke: 0.1vw black;
+}
+.menu_drop {
+    color: white;
+    margin: 0;
+    font-size: 2.7vw;
+    font-family: cursive;
+    -webkit-text-stroke: 0.1vw black;
+}
+.logo {
+    position: absolute;
+}
+.button {
+    width: 4vw;
+    height: 4vw;
+}
+.link {
+    text-decoration: none;
+}
+.nazwa {
+    position: absolute;
+    left: 4.1vw;
+    height: 4vw;
+    width: 28vw;
+}
+#home {
+    float: right;
+    border-radius: 3vw;
+    width: 14vw;
+    height: 4vw;
+    text-align: center;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    display: inline-block;
+}
+#home:hover, .nav:hover {
+    background-color: deeppink;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+#home:hover .drop {
+    background-color: pink;
+    display: block;
+    width: 14vw;
+    border-radius: 3vw;
+}
+#home:hover .drop a:hover, #home:hover .drop span:hover{
+    font-size: 1.5vw;
+    cursor: pointer;
+    color: green;
+    border-radius: 3vw;
+}
+.drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 14vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.drop a, .drop span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+img {
+    border-radius: 3vw;
+    width: 26vw;
+    height: 20vw;
+}
+.top {
+    font-family: cursive;
+    font-size: 1vw;
+    fill: black;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.border {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 8vw;
+    height: 8vw;
+}
+circle {
+    opacity: .8;
+    transition: fill 0.5s;
+}
+svg:hover circle {
+    fill: deeppink;
+}
+.nav {
+    float: right;
+    text-align: center;
+    border-radius: 3vw;
+    width: 11vw;
+    height: 4vw;
+    transition: background-color 0.5s;
+}
+nav .nav a:visited {
+    color: white;
+}
+.info {
+    display: none;
+}

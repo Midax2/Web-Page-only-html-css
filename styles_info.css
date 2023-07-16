@@ -1,0 +1,58 @@
+body {
+    background-image: url('Images/pergament.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+}
+article {
+    background-color: pink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3vw;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    display: grid;
+}
+header {
+    text-align: center;
+    font-size: 4vw;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 0.1vw black;
+}
+h2, article img, article p {
+    padding: 1vw;
+}
+h2 {
+    font-family: cursive;
+    font-size: 28px;
+}
+p {
+    font-size: 20px;
+}
+article p {
+    text-align: justify;
+}
+li {
+    padding: 0.5vw;
+}
+ol li {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color:  darkviolet;
+    padding-left: 1vw;
+    font-size: 20px;
+}
+a:visited {
+    color: green;
+}
+article div h2 a::before {
+    content: url(Links/Images/sakura.png);
+}
+.inside_ol {
+    font-weight: normal;
+}
